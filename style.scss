@@ -1,0 +1,75 @@
+.doBox {
+    position: relative;
+    margin-top: 3rem;
+    width: 30rem;
+    height: 30rem;
+    background-color: gray;
+    border: solid 0.1rem black;
+    box-shadow: gray 1px !important;
+}
+
+button {
+    width: 15rem;
+    height: 4rem;
+    background-color: gray;
+    color: white;
+    font-size: 1.5rem !important;
+}
+
+ol {
+    padding: 0 !important;
+    margin: 0;
+    li {
+        color: white;
+        font-size: 1.3rem;
+        background-color: rgb(179, 179, 179);
+        padding: 1rem;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+}
+
+.completedTask {
+    background-color: rgb(85, 150, 85) !important;
+    text-decoration: line-through;
+}
+
+i {
+    pointer-events: none;
+}
+
+.task {
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+    height: 3rem;
+    button {
+        width: 7rem;
+        height: 4rem;
+        right: 0.5rem;
+        bottom: 0.5rem;
+        position: absolute;
+    }
+    .titleInput {
+        position: absolute;
+        left: 0.5rem;
+        bottom: 0.5rem;
+        height: 4rem;
+        width: 70%;
+    }
+}
+
+.removeBtn {
+    position: absolute;
+    right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    // background-color: red;
+}

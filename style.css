@@ -1,0 +1,83 @@
+.doBox {
+  position: relative;
+  margin-top: 3rem;
+  width: 30rem;
+  height: 30rem;
+  background-color: gray;
+  border: solid 0.1rem black;
+  -webkit-box-shadow: gray 1px !important;
+          box-shadow: gray 1px !important;
+}
+
+button {
+  width: 15rem;
+  height: 4rem;
+  background-color: gray;
+  color: white;
+  font-size: 1.5rem !important;
+}
+
+ol {
+  padding: 0 !important;
+  margin: 0;
+}
+
+ol li {
+  color: white;
+  font-size: 1.3rem;
+  background-color: #b3b3b3;
+  padding: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.completedTask {
+  background-color: #559655 !important;
+  text-decoration: line-through;
+}
+
+i {
+  pointer-events: none;
+}
+
+.task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu {
+  width: 100%;
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  height: 3rem;
+}
+
+.menu button {
+  width: 7rem;
+  height: 4rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  position: absolute;
+}
+
+.menu .titleInput {
+  position: absolute;
+  left: 0.5rem;
+  bottom: 0.5rem;
+  height: 4rem;
+  width: 70%;
+}
+
+.removeBtn {
+  position: absolute;
+  right: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
