@@ -1,12 +1,13 @@
+body {
+  background: linear-gradient(41deg, #468e32 0%, #ff9e00 100%);
+}
+
 .doBox {
   position: relative;
   margin-top: 3rem;
-  width: 30rem;
-  height: 30rem;
-  background-color: gray;
-  border: solid 0.1rem black;
-  -webkit-box-shadow: gray 1px !important;
-          box-shadow: gray 1px !important;
+  width: 85%;
+  height: 50rem;
+  background: linear-gradient(41deg, #26521a 0%, #bb7400 100%);
 }
 
 button {
@@ -25,7 +26,7 @@ ol {
 ol li {
   color: white;
   font-size: 1.3rem;
-  background-color: #b3b3b3;
+  background-color: #ff723a;
   padding: 1rem;
   width: 100%;
   display: -webkit-box;
